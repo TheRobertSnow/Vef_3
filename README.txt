@@ -1,0 +1,1 @@
+Dæmi nr 2. og 3. í 3.2 er bara lokaverkefnið

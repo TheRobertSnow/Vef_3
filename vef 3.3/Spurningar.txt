@@ -1,0 +1,75 @@
+﻿1.
+An application programming interface (API) is a set of routines, data structures, object classes and/or protocols provided by libraries
+ and/or operating system services in order to support the building of applications.
+A Web Service is defined by the W3C as "a software system designed to support interoperable machine-to-machine interaction over a network"
+
+2.
+var myObj = { "crust":"original", "topping1":"cheese", "topping2":"pepperoni, "topping3":"garlic" };
+var myJSON = JSON.stringify(myObj);
+window.location = "demo_json.php?x=" + myJSON;
+
+
+
+3.
+The Open Systems Interconnection model is a conceptual model that characterizes and standardizes the communication functions
+of a telecommunication or computing system. The model partitions a communication system into abstraction layers. 
+The original version of the model defined seven layers.
+A layer serves the layer above it and is served by the layer below it. For example, a layer that provides error-free 
+communications across a network provides the path needed by applications above it, 
+while it calls the next lower layer to send and receive packets that comprise the contents of that path.
+
+-7. Application layer
+-6. Presentation layer
+-5. Session layer
+-4. Transport layer
+-3. Network layer
+-2. Data link layer
+-1. Physical layer
+
+The physical alyer defines the electrical and physical specifications of the data connection. It defines the 
+relationship between a device and a physical transmission medium (for example, an electrical cable, an optical fiber cable,
+or a radio frequency link)
+
+The data link layer provides node-to-node data transfer, a link between two directly connected nodes. It detects and possibl corrects 
+errors that may occur in the physical layer. It defines the protocol to establish and terminate a connection between two physically 
+connected devices.
+
+The network layer provides the functional and procedural means of transferring variable length data sequences from one node to 
+another connected in "different networks". A network is a medium to whitch many nodes can be connected, on which eveery node has 
+an address and which permits nodes connected to it to transfer messages to other nodes connected to it.
+
+The transport layer provides the functional and procedural means of transferring variable-length data sequences from a source to
+a destination host, while maintaining the quality of service functions.
+
+The session layer controls the dialogues (connections) between computers. It establishes, manages and terminates the connections 
+between the local and remote application.
+
+The presentation layer establishes context between application-layer entities, in which the application-layer entities may use 
+different syntax and semantics if the presentation service provides a mapping between them. If a mapping is available, presentation 
+service data units are encapsulated into session protocol data units and passed down the protocol stack.
+
+The application layer is the OSI layer closest to the end user, which means both the OSI application layer and the user interact 
+directly with the software application. This layer interacts with software applications that implement a communicating component.
+
+4.
+REST technology is generally preferred to the more robust Simple Object Access Protocol (SOAP) technology because REST leverages 
+less bandwidth, making it more suitable for internet usage. How RESTful APIs work
+A RESTful API breaks down a transaction to create a series of small modules. Each module addresses a particular underlying part of the transaction.
+
+5.
+HTTP is a request/response protocol, which means our computer sends a request for some file, and the web server sends back a response.
+That request which your computer sends to the web server contains all sorts of interesting information.
+In order to send the appropriate response back to your computer, the web server necessarily knows your computer's IP address, and a port
+number to which to send the response.
+
+6.
+OAuth 2.0 is a HTTPS-based protocol which enables a resource owner (the end-user), using a user-agent (typically a browser), 
+lets a client (typically an API consumer)  access a protected resource on a resource server (typically an API provider) using 
+credentials stored on an authorization server. Access to the protected resource is authorized by an access token.
+
+Authentication is the process by which an application confirms user identity. Applications have traditionally persisted identity 
+through session cookies, relying on session IDs stored server-side. This forces developers to create session storage that is 
+either unique to each server, or implemented as a totally separate session storage layer.
+
+
+
